@@ -1,0 +1,1 @@
+<?php echo wp_die(__('404 Error: Page not found.')); ?>

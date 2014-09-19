@@ -1,0 +1,458 @@
+{
+	"Crew": [
+		{
+			"name": "Zach Perkins",
+			"rank": "CAPT",
+			"dept": "Command",
+			"desc": "Commanding Officer of the USS Loma Prieta. CAPT. Perkins also serves as the Social Media Director of Region 4 and as the Chief of SFI Fire-Rescue for STARFLEET Medical. Zach is a First Aid/CPR/AED certified volunteer for San Francisco Fire Department's NERT program and a CA Disaster Corps CERT Trainee.",
+			"img": "lp_img/old_site_images/CaptPerkins.jpg"
+		},
+		{
+			"name": "Jon Sung",
+			"rank": "CMDR",
+			"dept": "Command",
+			"desc": "Executive Officer of the USS Loma Prieta and suspected Romulan Ale bootlegger.",
+			"img": "lp_img/old_site_images/CmrSung.jpg"
+		},	
+		{
+			"name": "Jesse MacKinnon",
+			"rank": "LT CMDR",
+			"dept": "Command",
+			"desc": "Chief Helm Officer and Ship's Historian",
+			"img": "lp_img/old_site_images/EnsMacKinnon.jpg"
+		},
+		{
+			"name": "Tiffany Bukowski",
+			"rank": "ENSIGN",
+			"dept": "Command",
+			"desc": "Yeoman",
+			"img": "lp_img/old_site_images/ENBukowski.jpg"
+		},
+		{
+			"name": "Edward (Ted) O'Connor",
+			"rank": "LT(jg)",
+			"dept": "Command",
+			"desc": "Shuttle Bay Chief/Helm",
+			"img": null
+		},
+		{
+			"name": "Sarah Elizabeth Linsley",
+			"rank": "LT(jg)",
+			"dept": "Command",
+			"desc": "Navigational Officer/Helm",
+			"img": null
+		},
+		{
+			"name": "Ramon Yvarra",
+			"rank": "ENSIGN",
+			"dept": "Command",
+			"desc": "Helm Officer",
+			"img": null
+		},
+		{
+			"name": "Jaimie Lehman",
+			"rank": "ENSIGN",
+			"dept": "Command",
+			"desc": "JAG Officer",
+			"img": null
+		},
+		{
+			"name": "Pete Hottelet",
+			"rank": "ENSIGN",
+			"dept": "Command",
+			"desc": "Temporal Attache",
+			"img": null
+		},
+		{
+			"name": "Cindy Bee",
+			"rank": "ENSIGN",
+			"dept": "Command",
+			"desc": "Morale Officer",
+			"img": "lp_img/old_site_images/EnsBee.jpg"
+		},
+		{
+			"name": "Erik Roberts",
+			"rank": "LT CMDR",
+			"dept": "Security",
+			"desc": "Chief of Security & Tactical",
+			"img": "lp_img/old_site_images/CaptRoberts.jpg"
+		},
+		{
+			"name": "Chef Scott Spencer",
+			"rank": "LT",
+			"dept": "Security",
+			"desc": "Armory Officer and Ships Chef",
+			"img": null
+		},
+		{
+			"name": "Steff Ransom",
+			"rank": "ENSIGN",
+			"dept": "Security",
+			"desc": "Security",
+			"img": null
+		},
+		{
+			"name": "Micah Jolly",
+			"rank": "ENSIGN",
+			"dept": "Security",
+			"desc": "Security Officer",
+			"img": "lp_img/old_site_images/EnsJolly.jpg"
+		},
+		{
+			"name": "Nick Leonard",
+			"rank": "ENSIGN",
+			"dept": "Security",
+			"desc": "Security Officer",
+			"img": null
+		},
+		{
+			"name": "Alex Ionescu",
+			"rank": "ENSIGN",
+			"dept": "Security",
+			"desc": "Security Officer",
+			"img": null
+		},
+		{
+			"name": "Eden Sherry",
+			"rank": "ENSIGN",
+			"dept": "Security",
+			"desc": "Security Officer",
+			"img": null
+		},
+		{
+			"name": "Tyler Manzo",
+			"rank": "ENSIGN",
+			"dept": "Security",
+			"desc": "Security Officer",
+			"img": null
+		},
+		{
+			"name": "Samantha Settlemoire",
+			"rank": "ENSIGN",
+			"dept": "Security",
+			"desc": "Security Officer",
+			"img": null
+		},
+		{
+			"name": "Jason Medwid",
+			"rank": "ENSIGN",
+			"dept": "Security",
+			"desc": "Security Officer",
+			"img": null
+		},
+		{
+			"name": "Tom Hesser",
+			"rank": "LT CMDR",
+			"dept": "Engineering",
+			"desc": "Chief Engineering Officer",
+			"img": "lp_img/old_site_images/LtCmrHesser.jpg"
+		},
+		{
+			"name": "Thomas Marrone",
+			"rank": "LT",
+			"dept": "Engineering",
+			"desc": "Assistant Chief Engineer",
+			"img": "lp_img/old_site_images/TMarrone.jpg"
+		},
+		{
+			"name": "Harley Cooper",
+			"rank": "LT(jg)",
+			"dept": "Engineering",
+			"desc": "LCARS Engineer",
+			"img": "lp_img/old_site_images/LTJCooper.jpg"
+		},
+		{
+			"name": "Tim Geoghegan",
+			"rank": "ENSIGN",
+			"dept": "Engineering",
+			"desc": "Engineering Officer",
+			"img": null
+		},
+		{
+			"name": "Cass Malloy",
+			"rank": "ENSIGN",
+			"dept": "Engineering",
+			"desc": "Space-Age Textile Engineer",
+			"img": null
+		},
+		{
+			"name": "Flynn Joffray",
+			"rank": "ENSIGN",
+			"dept": "Engineering",
+			"desc": "Engineering Officer",
+			"img": null
+		},
+		{
+			"name": "Charisse Brogdon",
+			"rank": "ENSIGN",
+			"dept": "Engineering",
+			"desc": "Engineering Officer",
+			"img": null
+		},
+		{
+			"name": "Michael Owens",
+			"rank": "LT CMDR",
+			"dept": "Operations",
+			"desc": "Chief Operations Officer",
+			"img": null
+		},
+		{
+			"name": "Ian Sayre",
+			"rank": "LT CMDR",
+			"dept": "Operations",
+			"desc": "Chief Communications Officer",
+			"img": "lp_img/old_site_images/EnsSayre.jpg"
+		},
+		{
+			"name": "Nicole Lippman",
+			"rank": "LT(jg)",
+			"dept": "Operations",
+			"desc": "Libations Officer",
+			"img": "lp_img/old_site_images/LtLippman.jpg"
+		},
+		{
+			"name": "Andy Smith",
+			"rank": "ENSIGN",
+			"dept": "Operations",
+			"desc": "Communications Officer",
+			"img": "lp_img/old_site_images/EnsSmith.jpg"
+		},
+		{
+			"name": "Jessie Phillipp",
+			"rank": "ENSIGN",
+			"dept": "Operations",
+			"desc": "Operations Officer",
+			"img": "lp_img/old_site_images/ENPhillipp.jpg"
+		},
+		{
+			"name": "Brian Fong",
+			"rank": "ENSIGN",
+			"dept": "Operations",
+			"desc": "Propaganda Officer",
+			"img": null
+		},
+		{
+			"name": "Vasy Nechay",
+			"rank": "ENSIGN",
+			"dept": "Operations",
+			"desc": "Holonovelist",
+			"img": null
+		},
+		{
+			"name": "Dana Corrin Williams",
+			"rank": "ENSIGN",
+			"dept": "Operations",
+			"desc": "Requisitions Officer",
+			"img": null
+		},
+		{
+			"name": "Todd Bamford",
+			"rank": "Chief Petty Officer",
+			"dept": "Operations",
+			"desc": "Damage Control Officer",
+			"img": null
+		},
+		{
+			"name": "Cody Bratt",
+			"rank": "Chief Petty Officer",
+			"dept": "Operations",
+			"desc": "Transporter Chief",
+			"img": "lp_img/old_site_images/CPOBratt.jpg"
+		},
+		{
+			"name": "Brian C. Johnson",
+			"rank": "Crewman 2nd Class",
+			"dept": "Operations",
+			"desc": "Laundry Room Attendant",
+			"img": null
+		},
+		{
+			"name": "Amy MacKinnon",
+			"rank": "LT CMDR",
+			"dept": "Science",
+			"desc": "Chief Science Officer",
+			"img": "lp_img/old_site_images/EnsSloan.jpg"
+		},
+		{
+			"name": "Samantha Dolgoff",
+			"rank": "LT",
+			"dept": "Science",
+			"desc": "Planetary Survey Officer",
+			"img": "lp_img/old_site_images/LtDolgoff.jpg"
+		},
+		{
+			"name": "Ben Roodman",
+			"rank": "LT(jg)",
+			"dept": "Science",
+			"desc": "Astrophysicist",
+			"img": "lp_img/old_site_images/LtRoodman.jpg"
+		},
+		{
+			"name": "Erin O'Connor",
+			"rank": "LT(jg)",
+			"dept": "Science",
+			"desc": "Xenolinguist",
+			"img": null
+		},
+		{
+			"name": "Casey Koon",
+			"rank": "LT(jg)",
+			"dept": "Science",
+			"desc": "Xenobiologist",
+			"img": null
+		},
+		{
+			"name": "Kelly Jensen",
+			"rank": "ENSIGN",
+			"dept": "Science",
+			"desc": "Science Dilettante",
+			"img": null
+		},
+		{
+			"name": "Shawn Alpay",
+			"rank": "ENSIGN",
+			"dept": "Science",
+			"desc": "Stellar Cartographer",
+			"img": null
+		},
+		{
+			"name": "Michaela Maloney",
+			"rank": "ENSIGN",
+			"dept": "Science",
+			"desc": "Xenoecologist",
+			"img": null
+		},
+		{
+			"name": "Tria Connell",
+			"rank": "Chief Petty Officer",
+			"dept": "Science",
+			"desc": "Seamstress Sciences Specialist",
+			"img": "lp_img/old_site_images/ChiefConnell.jpg"
+		},
+		{
+			"name": "Kristin Koperski",
+			"rank": "LT(jg)",
+			"dept": "Medical",
+			"desc": "Chief Medical Officer",
+			"img": "lp_img/old_site_images/LtKoperski.jpg"
+		},
+		{
+			"name": "Kris Mead",
+			"rank": "ENSIGN",
+			"dept": "Medical",
+			"desc": "Neurosurgeon",
+			"img": null
+		},
+		{
+			"name": "Eva Vincent",
+			"rank": "ENSIGN",
+			"dept": "Medical",
+			"desc": "Nurse and Xenodermatologist",
+			"img": null
+		},
+		{
+			"name": "Melissa Crystal",
+			"rank": "ENSIGN",
+			"dept": "Medical",
+			"desc": "Xenopsychologist",
+			"img": null
+		},
+		{
+			"name": "Calra Newman",
+			"rank": "ENSIGN",
+			"dept": "Medical",
+			"desc": "ECH (Emergency Counseling Hologram)",
+			"img": "lp_img/old_site_images/CNewman.jpg"
+		}
+	],
+
+	"Runabout": [
+		{
+			"name": "Paul Vassilakos-Long",
+			"rank": "LT",
+			"dept": "Command",
+			"desc": "Commanding Officer",
+			"img": null	
+		},
+		{
+			"name": "Ashlen Vassilakos",
+			"rank": "LT(jg)",
+			"dept": "Science",
+			"desc": "Archaeology Officer",
+			"img": null	
+		},
+		{
+			"name": "Doug Pelton",
+			"rank": "ENSIGN",
+			"dept": "Operations",
+			"desc": "Tactical/Armory Officer",
+			"img": null	
+		},
+		{
+			"name": "Lori Lamar",
+			"rank": "ENSIGN",
+			"dept": "Science",
+			"desc": "Science Officer",
+			"img": null
+		},
+		{
+			"name": "Josi Meerkamper",
+			"rank": "ENSIGN",
+			"dept": "Operations",
+			"desc": "Operations Officer",
+			"img": null	
+		},
+		{
+			"name": "TJ Rotell",
+			"rank": "ENSIGN",
+			"dept": "Command",
+			"desc": "Sensor Officer",
+			"img": null	
+		},
+		{
+			"name": "Lucky Boyd",
+			"rank": "ENSIGN",
+			"dept": "Science",
+			"desc": "Textile Research Officer",
+			"img": null	
+		}
+	],
+
+	"Alumni": [
+		{
+			"name": "Brian Schroeder",
+			"rank": "LT(jg) [retired]",
+			"dept": null,
+			"desc": "Warp Propuslion Officer",
+			"img": null
+		},
+		{
+			"name": "Robert Schaefer",
+			"rank": "ENSIGN [retired]",
+			"dept": "Science",
+			"desc": "Science Officer",
+			"img": null
+		},
+		{
+			"name": "Andrew Rogge",
+			"rank": "ENSIGN [transfer]",
+			"dept": null,
+			"desc": "Continuity Research Officer",
+			"img": null
+		},
+		{
+			"name": "Amanda Oetzel",
+			"rank": "ENSIGN [transfer]",
+			"dept": "Medical",
+			"desc": "Xenosurgeon",
+			"img": null
+		},
+		{
+			"name": "Michael O'Donnell",
+			"rank": "ENSIGN [confined to the brig]",
+			"dept": null,
+			"desc": "Holonovelist",
+			"img": null
+		},
+	]
+} 

@@ -1,0 +1,13 @@
+#header #navigation ul li a {
+	position: static;
+}
+#header #navigation ul li a div {
+	position: absolute;
+	background: none;
+}
+#featCategories {
+	display: inline-block;
+}
+#featCategories .category {
+	display: inline-block;	
+}

@@ -1,0 +1,456 @@
+body {color: #000;margin: 0;font-family: Arial, Helvetica, sans-serif;height:100%;}
+input,textarea,select,form,ul,li,a img {border: none;margin: 0;padding: 0;}
+.clear {background: none repeat scroll 0 0 transparent;border: 0 none;clear: both;display: block;float: none;font-size: 0;height: 0;list-style: none outside none;margin: 0;overflow: hidden;padding: 0;visibility: hidden;width: 0;}
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {display: inline-block;display: block;}
+.bor_bottom {border-bottom: 1px dotted #939498; margin-bottom: 20px}
+
+
+#admin_container {
+	background: #FFF;
+	padding: 15px 0;
+	margin: 0;
+	font-size: 12px;
+	color: #898888;
+	height:100%;
+	width: 100%;
+	text-align:left;
+}
+#admin_main_wrap {
+	width: 740px; 
+	overflow: hidden;
+	margin: 0 0 0 15px;
+	min-height: 900px;
+	background: url(images/admin_wrap_bg.png) center top repeat-y;
+}
+#admin_main_top {
+	padding: 0px 0 70px 0;
+	background: url(images/admin_wrap_top.png) no-repeat center top;
+}
+#admin_main_bottom{
+	width: 740px;
+	margin: 0 0 0 15px;
+	padding-bottom: 26px;
+	line-height: 1px;
+	font-size: 1px;
+	background: url(images/admin_main_bottom.png) no-repeat center bottom;
+}
+/* Left 
+	Theme powered by Free Premium Wordpress Themes
+	All rights reserved (c)
+	http://www.free-premium-wordpress-themes.com
+*/
+#admin_left {
+	width: 208px;
+	display: inline;
+	padding: 0 0 0 2px;
+	margin: 0;
+	overflow: hidden;
+	float: left;
+	color: #FFF;
+}
+#admin_left .logo { 
+	float: left;
+	margin: 43px 0 0 12px;
+	height: 51px;
+	color: #FFF;
+	font-size: 24px;
+	display: inline;
+}
+#admin_left .logo a {
+	color: #C6C6C4;
+	text-decoration: none;
+}
+#admin_left .logo a:hover {
+	color: #FF6;
+}
+#admin_left #admin_nav {
+	float: left;
+	z-index: 9999;
+	width: 208px;
+	padding: 0px;
+	margin: 20px 0 0;
+}
+#admin_left #admin_nav li {
+	color: #ccc;
+	margin-bottom:0;
+	line-height: 30px;
+	background: url(images/nav_a_bg.jpg) no-repeat left bottom;
+}
+#admin_left #admin_nav li img {
+	margin: 0 10px 0 0;
+	vertical-align: middle;
+	border: 0;
+}
+#admin_left #admin_nav ul li a, #admin_nav ul li a:visited {
+	display: block;
+	padding: 5px 10px 3px 30px;
+	_height: 25px;
+	_padding-top: 10px;
+	font-size: 12px;
+	text-decoration: none;
+	color: #FFF;
+}
+#admin_left #admin_nav ul li.current a, #admin_nav ul li a:hover {
+	color: #292929 !important;
+	background: url(images/admin_navli.jpg) no-repeat left top !important;
+}
+/* Right */
+#admin_right {
+	width: 500px;
+	padding: 40px 0px;
+	display: inline;
+	margin: 0 18px 0 0;
+	float: right;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif!important;
+}
+td, textarea, input, select {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif!important;
+}
+#admin_right .section, #admin_right .section_checkbox {
+	width: 480px;
+	overflow: hidden;
+	margin: 0 10px 15px;
+	padding: 0 0px 15px;
+	border-bottom: 1px dotted #939498;
+}
+#admin_right h3.title {
+	margin: 0 15px 15px;
+	font-size: 20px;
+	clear: both;
+	font-weight: normal;
+	color: #040404;
+	font-family: "Times New Roman", Times, serif;
+}
+#admin_right .option {
+	padding: 0 15px 0;
+	margin: 0;
+	color: #898888;
+	font-size: 12px;
+	clear: both;
+}
+#admin_right .option a {
+	color: #898888;
+	text-decoration: underline;
+}
+#admin_right .option a:hover {
+	color: #900;
+	text-decoration: underline;
+}
+#admin_right .option .controls {
+	margin: 0 10px 15px 0px;
+	float: left;
+	width: 250px;
+	display: inline;
+}
+#admin_right .option .controls_all {
+	margin: 0 10px 5px 0px;
+	float: left;
+	display: inline;
+}
+#admin_right .option .explain{
+	width: 190px;
+	float: left;
+	color: #898888;
+	font-size: 11px;
+	padding-top: 2px;
+	line-height: 15px;
+}
+#admin_right .option .break_explain {
+	float: none;
+}
+#admin_right .option .line_explain {
+	line-height: 25px;
+}
+#admin_right .option .explain_text {
+	width: 406px;
+	float: left;
+	color: #898888;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 10px 0 0;
+}
+#admin_right .option .description {
+	display: block;
+	margin: 0 0 10px;
+	clear: both;
+}
+#admin_right .section_checkbox .option .explain_check {
+	float: left;
+	color: #898888;
+	font-size: 12px;
+}
+#admin_right .section_box {
+	padding: 0 10px 15px;
+	margin: 0 0 15px;
+	background:url(images/section_box_border.jpg) no-repeat left bottom;
+}
+#admin_right .section_box .section_inside{
+	margin: 0 0px 15px;
+	padding: 0 15px 15px;
+	border-bottom: 1px dotted #939498;
+}
+#admin_right .section_box ul li {
+	list-style: none;
+	border-bottom: 1px dotted #939498;
+	padding: 0 15px 15px;
+	margin: 0 0px 15px;
+}
+#admin_right .section_box ul li .option_title {
+	font-size: 16px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #040404;
+	margin-bottom: 10px;
+}
+#admin_right .section_box ul ul {
+	background: url(images/section_box_bg.jpg) repeat-y;
+	padding: 7px 15px;
+	zoom: 1;
+}
+#admin_right .section_box ul ul li {
+	list-style: none;
+	border-bottom: none;
+	padding: 5px 0;
+	margin: 0px 0;
+	width: 135px;
+	display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+}
+#admin_nav .current a:focus {
+	outline: none;
+}
+#admin_right .section_box .check_box{
+	width: 13px;
+	float: left;
+	padding: 0px;
+	margin: 2px 10px 0 0;
+	*margin: -2px 10px 0 0;
+}
+#admin_right .section_box ul li .check_text{
+	width: 110px;
+	float: left;
+}
+#admin_right .section_box ul li .selection {
+	text-align: right;
+	padding: 7px 0px 7px 15px;
+}
+#admin_right .section_box ul li .selection input {
+	margin-right: 5px;
+}
+#admin_right .section_box ul li .selection label {
+	margin-right: 15px;
+}
+#admin_right .section_box ul li .check_text:hover, #admin_right .section_checkbox .explain_check:hover, #admin_right .section .explain label:hover {
+	color: #900;
+}
+#admin_right .section_checkbox .option .controls_check{
+	width: 13px;
+	float: left;
+	*margin: -2px 10px 0 0;
+	margin: 3px 10px 0 0px;
+	*margin: -2px 10px 0 0;
+}
+#admin_right input.upload {
+	width: 241px;
+	padding: 0px 5px;
+	line-height: 28px;
+	height: 30px;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	background: none;
+}
+#admin_right .inputbg {
+	width: 251px;
+	height: 30px;
+	overflow: hidden;
+	background: url(images/option_input_bg.jpg) no-repeat;
+}
+#admin_right input.upload:focus {
+	background: url(images/option_input_bg.jpg) no-repeat left -38px;
+}
+
+
+#admin_right input.upload416 {
+	width: 406px;
+	margin-bottom: 5px;
+	padding: 0px 5px;
+	height: 30px;
+	line-height: 28px;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	background: none;
+}
+#admin_right .inputbg416 {
+	width: 416px;
+	height: 30px;
+	overflow: hidden;
+	background: url(images/option_input_bg.jpg) no-repeat left -70px;
+}
+#admin_right input.upload416:focus {
+	background: url(images/option_input_bg.jpg) no-repeat left -105px;
+}
+
+
+
+
+
+
+#admin_right select {
+	width: 253px;
+	height:24px;
+	padding: 3px 4px 4px 5px;
+	cursor: pointer;
+	margin: 0px 0 0;
+	background:url(images/option_select_bg.jpg) no-repeat;
+}
+#admin_right select:focus {
+	background-position: left -30px;
+}
+#admin_right select.select_str {
+	width: 193px;
+	margin-right: 7px;
+	float: left;
+	background:url(images/option_select_str_bg.jpg) no-repeat;
+}
+#admin_right select.select_num {
+	width: 50px;
+	float: left;
+	background:url(images/option_select_num_bg.jpg) no-repeat;
+}
+#admin_right select.select_str:focus, #admin_right select.select_num:focus {
+	background-position: left -30px;
+}
+#admin_right .textarea416 {
+	width: 406px;
+	height: 80px;
+	padding: 5px;
+	overflow-x:hidden;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	background: none;
+}
+#admin_right .textareabg416 {
+	width: 416px;
+	height: 90px;
+	overflow: hidden;
+	background: url(images/option_textarea_bg.jpg) no-repeat;
+}
+#admin_right .textarea416:focus {
+	background: url(images/option_textarea_bg.jpg) no-repeat left -94px;
+}
+#admin_right .textarea251 {
+	width: 241px;
+	height: 55px;
+	padding: 5px;
+	overflow-x:hidden;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	background: none;
+}
+#admin_right .textareabg251 {
+	width: 251px;
+	height: 65px;
+	overflow: hidden;
+	background: url(images/option_textarea_bg.jpg) no-repeat left -190px;
+}
+#admin_right .textarea251:focus {
+	background: url(images/option_textarea_bg.jpg) no-repeat left -261px;
+}
+
+
+/* Button*/
+#admin_right input {
+	border: 0;
+	-moz-border-radius: 0;
+}
+#admin_right select {
+	-moz-border-radius: 0;
+}
+#admin_right .upload_button {
+	display: block;
+	padding: 0px 0px 0 93px;
+	clear: both;
+}
+#admin_right .global_upload_button {
+	display: block;
+	padding: 0px 0px 0;
+	margin: 50px 0 0;
+	text-align: center;
+	clear: both;
+}
+#admin_right .reset_button {
+	color: #FFF;
+	font-size: 11px;
+	font-weight: bold;
+	cursor: pointer;
+	width: 56px;
+	height: 29px;
+	background: url(images/button_icon.jpg) no-repeat left top;
+}
+#admin_right .submit_button {
+	color: #FFF;
+	font-size: 11px;
+	font-weight: bold;
+	cursor: pointer;
+	width: 97px;
+	height: 29px;
+	margin: 0 0 0 5px;
+	background: url(images/button_icon.jpg) no-repeat -60px top;
+}
+#admin_right .upload_image_button {
+	color: #FFF;
+	font-size: 11px;
+	font-weight: bold;
+	cursor: pointer;
+	width: 97px;
+	height: 29px;
+	margin: 0 0 0 5px;
+	background: url(images/button_icon.jpg) no-repeat -60px top;
+}
+#admin_right .default_button {
+	color: #FFF;
+	font-size: 11px;
+	font-weight: bold;
+	cursor: pointer;
+	width: 56px;
+	height: 29px;
+	background: url(images/button_icon.jpg) no-repeat left -58px;
+}
+#admin_right .save_button {
+	color: #FFF;
+	font-size: 11px;
+	font-weight: bold;
+	cursor: pointer;
+	width: 56px;
+	height: 29px;
+	margin: 0 0 0 15px;
+	background: url(images/button_icon.jpg) no-repeat -72px -58px;
+}
+#admin_right .reset_button:hover {
+	color: #FC0;
+	background: url(images/button_icon.jpg) no-repeat left -29px;
+}
+#admin_right .submit_button:hover {
+	color: #FF8;
+	background: url(images/button_icon.jpg) no-repeat -60px -29px;
+}
+#admin_right .upload_image_button:hover {
+	color: #FF8;
+	background: url(images/button_icon.jpg) no-repeat -60px -29px;
+}
+#admin_right .default_button:hover {
+	color: #FC0;
+	background: url(images/button_icon.jpg) no-repeat left -87px;
+}
+#admin_right .save_button:hover {
+	color: #FF8;
+	background: url(images/button_icon.jpg) no-repeat -72px -87px;
+}
